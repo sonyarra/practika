@@ -26,12 +26,12 @@ body{
 .header_name{
     color: #3E5C88;
     font-weight: 500;
-    font-size: 3.2em;
+    font-size: 3em;
 }
 
 .sidebar{
     display: flex;
-    width: 500px;
+    width: 470px;
     height: 100vh;
     background-color: white ;
     border-right: solid #3E5C88 2px;
@@ -39,7 +39,7 @@ body{
 
 .sidebar_left_box{
     display: flex;
-    width: 500px;
+    width: 470px;
     height: 190px;
     border-bottom: solid #3E5C88 2px;
     
@@ -54,12 +54,12 @@ body{
 }
 
 .sidebar_left_box_customize_text1{
-    font-size: 2.7em;
+    font-size: 2.5em;
     font-weight: 500;
 }
 
 .sidebar_left_box_customize_text2{
-    font-size: 2em;
+    font-size: 1.69em;
     font-weight: 400;
     display: flex;
     gap: 170px;
@@ -102,7 +102,7 @@ body{
 }
 
 .sidebar_right{
-    position: fixed;
+    position: absolute;
     right: 0;
     width: 500px;
     height: 100vh;
@@ -118,7 +118,7 @@ body{
 }
 
 .sidebar_right_customize_text1{
-    font-size: 2.7em;
+    font-size: 2.5em;
     font-weight: 500;
     
 }
